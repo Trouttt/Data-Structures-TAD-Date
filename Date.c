@@ -21,6 +21,8 @@ void getDate(dayDate, mounthDate, yearDate){
                 faço os if comparando se os números passados por parâmetro, estão de acordo com
                 a realidade. Caso estejam, ele converte os tipos de dados pra string, com 
                 formato de data.
+
+                Infelizmente não conseguirei fazer o resto, pois não dará tempo
                 */
 
             };
