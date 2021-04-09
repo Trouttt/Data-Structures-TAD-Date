@@ -1,6 +1,6 @@
 #include "Date.h"
 int main(){
 
-    getDate(10,12,1999);
+    getDate(31,12,2020);
 
-}
+};

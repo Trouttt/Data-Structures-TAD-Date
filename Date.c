@@ -14,8 +14,14 @@ void getDate(dayDate, mounthDate, yearDate){
 
             if( ( yearDate >= 1000 ) && ( yearDate <= 9999)){
 
-                sprintf(Date.date, "Data: %d/%d/%d", dayDate, mounthDate, yearDate);
-                printf("%s", Date.date);
+                sprintf(dateFormated, "Data: %d/%d/%d", dayDate, mounthDate, yearDate);
+                printf("%s", dateFormated);
+
+                /*Basicamente, nessa função eu pego os valores passados por referência, 
+                faço os if comparando se os números passados por parâmetro, estão de acordo com
+                a realidade. Caso estejam, ele converte os tipos de dados pra string, com 
+                formato de data.
+                */
 
             };
         };

@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-struct{
+char dateFormated[10];
+struct {
     char date[10];
 } Date;
 
